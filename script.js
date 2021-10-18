@@ -1,8 +1,8 @@
-function tabuada(){
-    var n = document.getElementById('numero')
-    var tab = document.getElementById('tabuada')
+function table(){
+    var n = document.getElementById('number')
+    var tab = document.getElementById('table')
     if(n.value.length == 0){
-        window.alert('Erro! Tente novamente.')
+        window.alert('Error! Try again.')
     } else{
         var num = Number(n.value)
         var c = 1
